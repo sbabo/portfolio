@@ -1,0 +1,50 @@
+.about-section {
+    padding: 60px 0;
+    background-color: #E5D6C7;
+}
+
+.tech-icons {
+  display: flex !important;
+  align-self: center !important;
+  justify-content: center !important;
+  font-size: 1rem !important;
+  margin: 15px !important;
+  padding: 10px 20px !important;
+  opacity: 0.93 !important;
+  outline: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 24px !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  width: fit-content !important;
+  cursor: pointer !important;
+  transition: outline-color 0.3s, outline-width 0.3s, transform 0.3s;
+  color: white;
+}
+
+.tech-icons img {
+  height: 1.6em;
+  width: auto;
+  vertical-align: middle;
+}
+
+.tech-icons-text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: black;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  outline: 2.2px solid rgba(197, 115, 230, 0.883);
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
