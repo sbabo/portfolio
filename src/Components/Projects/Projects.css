@@ -1,0 +1,66 @@
+.projects-section {
+    padding: 40px;
+    background-color: #FCF7F2;
+    color: #1F2A37;
+}
+
+.projects-card {
+    background: #FFFFFF;
+    border: 1px solid #E5D6C7;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;              /* 🔥 crée un espace autour */
+    margin-bottom: 24px;
+}
+
+.projects-card:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(0, 0, 0, 0.25) !important;
+}
+
+.projects-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #1F2A37;
+}
+
+.projects-card .card-text {
+  flex: 1 1 auto;
+  max-height: none;
+  overflow: visible;
+  margin-bottom: 1rem;
+  font-size: 0.97rem;
+  color: #374151;
+}
+
+.projects-card .btn {
+  margin-top: auto;
+  width: 100%;
+  font-size: 0.97rem;
+  background-color: #2C7A7B;
+  border-color: #2C7A7B;
+}
+
+.projects-card .btn:hover, .projects-card .btn:focus {
+  background-color: #205e5f;
+  border-color: #205e5f;
+}
+
+.projects-card img {
+    height: 160px;              /* ↓ image plus petite */
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;         /* coins visibles */
+    margin-bottom: 12px;        /* espace avec le texte */
+}
